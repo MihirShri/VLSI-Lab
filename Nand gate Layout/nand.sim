@@ -1,0 +1,23 @@
+| units: 100 tech: scmos format: MIT
+n C a_n2_n26# OUT 2 4 4 -26
+p B OUT VDD 2 7 -4 7
+p C VDD OUT 2 7 4 7
+n A GND a_n10_n26# 2 4 -12 -26
+n B a_n10_n26# a_n2_n26# 2 4 -4 -26
+p A VDD OUT 2 7 -12 7
+C VDD C 2.15
+C VDD B 2.15
+C VDD A 2.15
+R a_n2_n26# 40
+R a_n10_n26# 40
+C GND GND 8.46
+R GND 637
+C OUT GND 7.05
+R OUT 391
+C C GND 11.56
+R C 524
+C B GND 10.44
+R B 524
+C A GND 9.31
+R A 524
+R VDD 4798
